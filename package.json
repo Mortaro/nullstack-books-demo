@@ -1,0 +1,21 @@
+{
+  "name": "nullstack-books-demo",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongodb-session": "2.1.1",
+    "express-session": "^1.17.0",
+    "mongodb": "3.1.13",
+    "nullstack": "^0.1.0"
+  },
+  "scripts": {
+    "start": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=development --watch",
+    "build": "npx webpack --config node_modules/nullstack/webpack.config.js --mode=production"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  }
+}
